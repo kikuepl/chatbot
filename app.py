@@ -15,8 +15,8 @@ st.title("langchain-app")
 
 def create_agent_chain():
     chat = ChatOpenAI(
-            model_name = os.environ["OPENAI_API_MODEL"],
-            temperature = os.environ["OPENAI_API_TEMPERATURE"],
+            model_name = st.secrets["OPENAI_API_MODEL"],
+            temperature = st.secrets["OPENAI_API_TEMPERATURE"],
             streaming = True,
     )
     
