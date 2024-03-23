@@ -1,0 +1,8 @@
+google-cloud-texttospeech
+google-auth
+streamlit
+openai == 0.28.0
+langchain
+duckduckgo-search==4.1.0
+wikipedia==1.4.0
+python-dotenv==1.0.0
